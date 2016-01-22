@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+.slideBanner {
+	width: 100%;
+	min-width: 11.9rem;
+	height: 3rem;
+	background: url(../images/slideBanner/new.jpg) no-repeat 50% 0% #111;
+}
+
+.pageMain {
+	width: 100%;
+	min-width: 11.9rem;
+	height: 22.5rem;
+	border-top: .01rem solid #222;
+	background: url(../images/new/bg.jpg);
+}
+
+.pageMain .wrap {
+	width: 11.9rem;
+	height: 22.1rem;
+	margin: .2rem auto;
+	background: url(../images/new/bg2.png);
+	border: .01rem solid #ccc;
+	border-top: .01rem solid #999;
+	border-left: .01rem solid #999;
+	box-shadow: .03rem .02rem .06rem .02rem #221;
+	border-radius: .3rem;
+	color: #ccc;
+}
+
+.pageMain .video {
+	width: 11rem;
+	height: 6rem;
+	margin: .2rem auto;
+	background: #111;
+}
+
+.pageMain .video iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+.pageMain .info {
+	color: #bbb;
+	margin-bottom: .2rem;
+}
+
+.pageMain .info > div {
+	box-shadow: 0 0 .01rem .01rem #444;
+}
+
+.pageMain .baseInfo {
+	width: 10.6rem;
+	height: auto;
+	margin: 0 auto;
+	background: #222;
+	padding: .2rem;
+}
+
+.pageMain .info h2 {
+	display: inline-block;
+}
+.pageMain .info h2:hover {
+	color: #f60;
+}
+
+.pageMain .info hr {
+	margin: 0;
+	padding: 0;
+	margin-top: .1rem;
+	border: .01rem dashed #666;
+	box-shadow: .01rem .01rem .03rem .01rem #000;
+}
+
+.pageMain table {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: .1rem;
+	border-spacing: 0rem .1rem;
+	border-collapse: separate;
+}
+
+.pageMain table td:nth-child(odd) {
+	width: 1rem;
+	height: .3rem;
+	color: #111;
+	font-weight: bold;
+	background: #555;
+	text-align: center;
+	line-height: .3rem;
+}
+
+.pageMain table td:nth-child(even) {
+	border: .01rem solid #333;
+	min-width: 2rem;
+	padding: .1rem;
+	background: #333;
+}
+
+.pageMain .storyProfile {
+	width: 10.6rem;
+	height: auto;
+	margin: 0 auto;
+	background: #222;
+	padding: .2rem;
+}
+
+.pageMain .storyProfile p {
+	margin: .3rem .2rem;
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	line-height: 1.5;
+	vertical-align: top;
+}
+
+.pageMain .storyProfile p:first-letter {
+	color: #f60;
+	font-weight: bold;
+	font-size: .30rem;
+	float: left;
+	letter-spacing: .05rem;
+}
+
+.pageMain .storyProfile img {
+	display: inline-block;
+	width: 65%;
+	margin-top: .1rem;
+}
+
+.pageMain .mainActors {
+	width: 10.6rem;
+	height: auto;
+	margin: 0 auto;
+	background: #222;
+	padding: .2rem;
+}
+
+.pageMain .mainActors .actorsBar {
+	width: 10.4rem;
+	height: 5rem;
+	margin: .1rem;
+	margin-top: .2rem;
+	position: relative;
+}
+
+.pageMain .mainActors .left {
+	float: left;
+	width: .25rem;
+	height: 1rem;
+	background: url(../images/new/left1.png) no-repeat left center;
+	margin-right: .2rem;
+	position: absolute;
+	left: 0;
+	top: 2rem;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.pageMain .mainActors .left:hover {
+	background: url(../images/new/left2.png) no-repeat left center;
+}
+
+.pageMain .mainActors .pic {
+	float: left;
+	width: 9.5rem;
+	height: 5rem;
+}
+
+.pageMain .mainActors ul {
+	width: 100%;
+	height: 100%;
+}
+
+.pageMain .mainActors ul li {
+	width: 2.65rem;
+	height: 3.31rem;
+	position: absolute;
+	display: none;
+	color: #ccc;
+}
+
+.pageMain .mainActors ul li.chosen {
+	width: 4rem;
+	height: 5rem;
+}
+
+.pageMain .mainActors ul li.p1 {
+	background: url(../images/new/p1.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p2 {
+	background: url(../images/new/p2.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p3 {
+	background: url(../images/new/p3.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p4 {
+	background: url(../images/new/p4.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p5 {
+	background: url(../images/new/p5.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p6 {
+	background: url(../images/new/p6.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors ul li.p7 {
+	background: url(../images/new/p7.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.pageMain .mainActors li .content {
+	background: url(../images/new/bg2.png);
+	position: absolute;
+	bottom: 0;
+	line-height: 1.5;
+	padding: .1rem;
+	font-size: .14rem;
+}
+
+.pageMain .mainActors li .name {
+	color: #f60;
+	font-weight: bold;
+	font-size: .18rem;
+	padding-right: .1rem;
+}
+
+.pageMain .mainActors li .shi {
+	color: #f60;
+	font-size: .16rem;
+	padding-left: .05rem;
+}
+
+.pageMain .mainActors .right {
+	float: right;
+	width: .25rem;
+	height: 1rem;
+	background: url(../images/new/right1.png) no-repeat right center;
+	position: absolute;
+	right: 0;
+	top: 2rem;
+	cursor: pointer;
+}
+
+.pageMain .mainActors .right:hover {
+	background: url(../images/new/right2.png) no-repeat right center;
+}

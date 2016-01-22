@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+.slideBanner {
+	width: 100%;
+	min-width: 11.9rem;
+	height: 3rem;
+	background: url(../images/slideBanner/album.jpg) no-repeat 50% 0% #111;
+}
+
+.pageMain {
+	width: 100%;
+	min-width: 11.9rem;
+	height: 8.4rem;
+	border-top: .01rem solid #222;
+	background: url(../images/contact/bg.jpg) 50% 0;
+}
+
+.pageMain .wrap {
+	width: 11.9rem;
+	height: 8rem;
+	margin: .2rem auto;
+	margin-bottom: .2rem;
+	background: url(../images/contact/bg2.png);
+	border: .01rem solid #ccc;
+	border-top: .01rem solid #999;
+	border-left: .01rem solid #999;
+	box-shadow: .03rem .02rem .06rem .02rem #221;
+	border-radius: .3rem;
+	color: #ccc;
+}
+
+.pageMain .wrap header {
+	width: 10rem;
+	height: 2.5rem;
+	margin: .2rem auto;
+	/*background: gray;*/
+}
+
+.pageMain .wrap header ul {
+	text-align: center;
+	color: #ddd;
+	font-size: .28rem;
+	font-weight: bold;
+	text-shadow: .01rem .01rem .03rem #111;
+}
+
+.pageMain .wrap header ul li {
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+	/*float: left;*/
+	margin-top: .8rem;
+	border-radius: .05rem;
+}
+
+.pageMain .wrap header ul li:nth-child(1) {
+	background: rgb(200,0,0); 
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	line-height: 1rem;
+}
+
+.pageMain .wrap header ul li:nth-child(2) {
+	background: rgb(255,128,0);
+	-ms-transform: rotate(10deg) scale(0.9);
+	-o-transform: rotate(10deg) scale(0.9);
+	transform: rotate(10deg) scale(0.9);
+	line-height: 1rem;
+}
+
+.pageMain .wrap header ul li:nth-child(3) {
+	background: rgb(225,225,0);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+	line-height: 1rem;
+}
+
+.pageMain .wrap header ul li:nth-child(4) {
+	background: rgb(0,200,0);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+	line-height: 1rem;
+}
+
+.pageMain .wrap header ul li:nth-child(5) {
+	background: rgb(0,225,225);
+	line-height: 1rem;
+}
+
+.pageMain .wrap header ul li:nth-child(6) {
+	background: #004eb4;
+	-ms-transform: rotate(25deg);
+	-o-transform: rotate(25deg);
+	transform: rotate(25deg);
+	width: .8rem;
+	height: .8rem;
+	line-height: .8rem;
+}
+
+.pageMain .wrap header ul li:nth-child(7) {
+	background: rgb(128,0,255);
+	-ms-transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	transform: rotate(70deg);
+	line-height: 1rem;
+}
+
+
+
+
+
+
+.pageMain .wrap article {
+	width: 10rem;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pageMain .wrap article form {
+	background: rgba(200,200,200,.2);
+	text-align: right;
+	width: 6rem;
+	height: 4rem;
+	margin: 0 auto;
+	padding-top: .2rem;
+	position: relative;
+	border-radius: .3rem;
+}
+
+.pageMain .wrap form label {
+	margin-right: 1rem;
+	text-shadow: .01rem .01rem .01rem #000;
+}
+
+.pageMain .wrap form input {
+	width: 3rem;
+	height: .2rem;
+	margin: .1rem 0;
+	padding: .05rem;
+	border-radius: .05rem;
+	background: #fff;
+	outline: none;
+	letter-spacing: .01rem;
+	background: transparent;
+	border: .01rem solid #ccc;
+	color: #ccc;
+}
+
+.pageMain .wrap form input:focus, .pageMain .wrap form textarea:focus {
+	background: transparent;
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.pageMain .wrap form textarea {
+	margin-top: .1rem;
+	width: 3rem;
+	height: 1rem;
+	border-radius: .05rem;
+	resize: none;
+	outline: none;
+	padding: .05rem;
+	letter-spacing: .01rem;
+	background: transparent;
+	border: .01rem solid #ccc;
+	color: #ccc;
+	word-break: break-all;	/*单词、url在单词内换行，比wrod-wrap好用*/
+}
+
+.pageMain .wrap form span {
+	position: relative;
+	bottom: .9rem;
+}
+
+.pageMain .wrap img {
+	position: absolute;
+	right: .65rem;
+	margin-top: .09rem;
+	display: none;
+}
+
+.pageMain .wrap input[type="submit"] {
+	margin-top: .1rem;
+	margin-right: 1.35rem;
+	width: 2.5rem;
+	height: .3rem;
+	border-radius: .05rem;
+	border: .01rem solid #eee;
+	color: #ccc;
+	outline: none;
+}
+
+.pageMain .wrap input[type=submit]:active {
+	background: #000;
+	color: #ccc;
+	font-weight: bold;
+	-webkit-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	transform: scale(1.0);
+}
+
+.pageMain .wrap div.job {
+	position: absolute;
+	top: 1.7rem;
+	left: 3.75rem;
+	display: none;
+}

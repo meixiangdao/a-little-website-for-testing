@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+.pageMain {
+	width: 100%;
+	height: 5.4rem;	
+	background: url(../images/index/bg.jpg);
+	border-top: .01rem solid #111;
+}
+
+.pageMain > .wrap {
+	width: 11.9rem;
+	height: 5;
+	margin: .2rem auto;
+}
+
+.pageMain .seasons {
+	float: left;
+	width: 4rem;
+	height: 100%;
+	color: #333;
+}
+
+.pageMain .seasons div[class^="ss"] {
+	background: #222;
+}
+
+.pageMain .seasons .seasonName {
+	width: 100%;
+	height: .4rem;
+	line-height: 1.3;
+	padding: .1rem;
+	margin: 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: nowrap;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #b93d41;
+	cursor: pointer;
+}
+
+.pageMain .seasons div[class~="chosen"] .seasonName {
+	white-space: normal;
+	height: auto;
+	color: #ccc;
+	font-weight: normal;
+	font-size: .16rem;
+	line-height: 1.3;
+	background: #b93d41;
+	text-shadow: .01rem .01rem .03rem #111;
+	border: .05rem solid #802a2d;
+	box-sizing: border-box;
+}
+
+.pageMain .seasons .items {
+	width: 100%;
+	height: .1rem;
+	background: url(../images/index/bg2.png);
+}
+
+.pageMain .seasons div[class~="chosen"] .items {
+	width: 100%;
+	height: 2.33rem;
+}
+
+.pageMain .seasons .items table {
+	display: none;
+}
+
+.pageMain .seasons div[class~="chosen"][class~="ss1"] .items table {
+	display: block;
+	width: 3.06rem;
+	border-spacing: 0;
+	border-collapse: collapse;
+	color: #999;
+	margin: 0 auto;
+	padding-top: .4rem;
+}
+
+.pageMain .seasons div[class~="chosen"][class~="ss2"] .items table {
+	display: block;
+	width: 3.06rem;
+	border-spacing: 0;
+	border-collapse: collapse;
+	color: #999;
+	margin: 0 auto;
+	padding-top: .1rem;
+}
+
+.pageMain .seasons div[class~="chosen"][class~="ss3"] .items table {
+	display: block;
+	width: 3.06rem;
+	border-spacing: 0;
+	border-collapse: collapse;
+	color: #999;
+	margin: 0 auto;
+	padding: .3rem;
+}
+
+.pageMain .seasons .items td {
+	color: #b93d41;
+	width: .6rem;
+	height: .5rem;
+	border: .01rem solid #802a2d;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pageMain .seasons .items td:hover {
+	background: #802a2d;
+	color: #ccc;
+}
+
+.pageMain .seasons .items td.chosen {
+	background: #802a2d;
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+.pageMain .play {
+	float: right;
+	width: 7.79rem;
+	height: 100%;
+}
+
+.pageMain iframe {
+	width: 100%;
+	height: 5rem;
+	background: #000;
+}
